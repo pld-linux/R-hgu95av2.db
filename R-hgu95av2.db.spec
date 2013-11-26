@@ -2,12 +2,12 @@
 
 Summary:	Affymetrix Human Genome U95 Set annotation data (chip hgu95av2)
 Name:		R-%{packname}
-Version:	2.8.0
+Version:	2.10.1
 Release:	1
 License:	Artistic 2.0
 Group:		Applications/Engineering
 Source0:	http://www.bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	4a68aeb1532c7b9fc5cf7a8dfd807ff1
+# Source0-md5:	3534b616842c834c3e715cbb0dbd9934
 URL:		http://www.bioconductor.org/packages/release/data/annotation/html/hgu95av2.db.html
 BuildRequires:	R-AnnotationDbi
 BuildRequires:	R-org.Hs.eg.db
